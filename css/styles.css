@@ -13,3 +13,21 @@ body{
     height: auto;
     background-image: url(../imagens/background.webp);
 }
+
+.login{
+    width: 20%;
+    border: 1px solid black;
+    margin: 20% auto;
+}
+
+.login h1{
+    text-align: center;
+    padding: 10px;
+}
+
+.form_login{
+    margin: 0 auto;
+    width: 80%;
+    padding: 20px;
+    font-weight: bold;
+}
