@@ -16,7 +16,7 @@ body{
 /*Página de Login*/
 
 .body_login{
-    background-image: url(../imagens/background.webp);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 
 .login{
@@ -40,12 +40,16 @@ body{
 /*Página Inicial*/
 
 .body_pagina_inicial{
-    background-image: url(../imagens/background_pagina_inicial.webp);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 
 .pag_inicial{
     width: 50%;
-    margin: 20% auto;
+    margin: 5% auto;
+}
+
+.pag_inicial h1{
+    padding: 20px 0;
 }
 
 table{
