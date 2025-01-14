@@ -10,14 +10,15 @@ html{
 
 body{
     width: 100%;
-    height: auto; 
+    height: auto;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
 
 /*Página de Login*/
 
-.body_login{
+/*.body_login{
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-}
+}*/
 
 .login{
     width: 20%;
@@ -39,9 +40,9 @@ body{
 
 /*Página Inicial*/
 
-.body_pagina_inicial{
+/*.body_pagina_inicial{
     background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
-}
+}*/
 
 .pag_inicial{
     width: 50%;
@@ -52,16 +53,40 @@ body{
     padding: 20px 0;
 }
 
-table{
+.table_p_inicial{
     border: 2px solid black;
     border-collapse: collapse;
 }
 
-tr{
+.table_p_inicial tr{
     border-bottom: 1px solid black;
 }
 
-th, td{
+.table_p_inicial th, td{
     border: 1px solid black;
+    padding: 5px;
+}
+
+.pag_inicial a{
+    text-decoration: none;
+    color: black;
+}
+
+/*M001*/
+
+.m001{
+    width: 35%;
+    margin: 2% auto;
+}
+
+.m001 h1{
+    padding: 5px;
+}
+
+.m001 h2{
+    padding: 20px 0;
+}
+
+.m001 p{
     padding: 5px;
 }
