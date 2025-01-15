@@ -38,7 +38,7 @@ def login():
         else:
             return "Nome de usuário ou senha inválidos."
 
-    return render_template('login.html')
+    return render_template('index.html')
 
 # Página protegida para usuários autenticados
 @app.route('/dashboard')
