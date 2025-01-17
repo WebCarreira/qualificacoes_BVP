@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
     <title>Qualificações BVP</title>
 </head>
 <body class="body_login">
     <section class="login">
         <h1>Login</h1>
-        <form action="página_inicial.html" method="post" class="form_login">
+        <form action="{{ url_for('página_inicial') }}" method="post" class="form_login">
             <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
             <br><br>
